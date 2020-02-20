@@ -1,0 +1,12 @@
+Lucky numbers are positive integers whose decimal record contains only the lucky digits 4 and 7. For example, numbers 47, 744, 4 are lucky and 5, 17, 467 are not.
+
+The mask of a positive integer n is the number that is obtained after successive writing of all lucky digits of number n from the left to the right. For example, the mask of number 72174994 is number 7744, the mask of 7 is 7, the mask of 9999047 is 47. Obviously, mask of any number is always a lucky number.
+
+Given are two numbers — an arbitrary integer a and a lucky number b. Find the minimum number c (c > a) such that the mask of number c equals b.
+
+Input
+The first line contains the number of test cases.
+The second line contains two integers a and b (1 ≤ a, b ≤ 105). It is guaranteed that number b is lucky.
+
+Output
+FOr each test case, print a single number — the number c.
